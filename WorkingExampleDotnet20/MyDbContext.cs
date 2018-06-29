@@ -46,6 +46,7 @@ namespace WorkingExampleDotnet20 {
 
     public class CompositeItem {
 
+        //If this was DbGenerated it would throw the exact same exception as in 2.1
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public long Id {
             get; set;
