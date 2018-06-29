@@ -46,7 +46,6 @@ namespace FailingExampleDotnet21 {
 
     public class CompositeItem {
 
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public long Id {
             get; set;
         }
